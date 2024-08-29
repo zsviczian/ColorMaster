@@ -1,6 +1,9 @@
 {
-  "name": "colormaster",
-  "version": "1.2.1",
+  "name": "@zsviczian/colormaster",
+  "version": "1.2.2",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "🏆 A powerful and fully typed module for all your coloring needs.",
   "author": "Lior Bragilevsky <lbragile.masc@gmail.com> (https://github.com/lbragile)",
   "license": "MIT",
@@ -51,8 +54,8 @@
   "eslintConfig": {
     "extends": "./config/.eslintrc.js"
   },
-  "repository": "github:lbragile/ColorMaster",
-  "homepage": "https://github.com/lbragile/ColorMaster#readme",
+  "repository": "github:zsviczian/ColorMaster",
+  "homepage": "https://github.com/zsviczian/ColorMaster#readme",
   "bugs": {
     "url": "https://github.com/lbragile/ColorMaster/issues",
     "email": "lbragile.masc@gmail.com"
@@ -136,6 +139,21 @@
       "import": "./plugins/cmyk.mjs",
       "require": "./plugins/cmyk.js",
       "default": "./plugins/cmyk.mjs"
+    },
+    "./plugins/luv": {
+      "import": "./plugins/luv.mjs",
+      "require": "./plugins/luv.js",
+      "default": "./plugins/luv.mjs"
+    },
+    "./plugins/uvw": {
+      "import": "./plugins/uvw.mjs",
+      "require": "./plugins/uvw.js",
+      "default": "./plugins/uvw.mjs"
+    },
+    "./plugins/ryb": {
+      "import": "./plugins/ryb.mjs",
+      "require": "./plugins/ryb.js",
+      "default": "./plugins/ryb.mjs"
     }
   },
   "devDependencies": {

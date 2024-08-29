@@ -1,3 +1,5 @@
+This is the same as https://github.com/lbragile/ColorMaster only package.json is patched with the 3 missing exports. It seems lbragile's original project is abandoned. I've waited 1.5 years for this [PR](https://github.com/lbragile/ColorMaster/pull/28) to be reviewed. I've given up.
+
 <!-- markdownlint-disable no-inline-html -->
 <!-- markdownlint-disable first-line-heading -->
 <div align="center">

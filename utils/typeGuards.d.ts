@@ -1,0 +1,13 @@
+import { TInput, Ihex, Ihexa, Ihsl, Ihsla, Ihsv, Ihsva, Irgb, Irgba, Ilaba, Ilab, Ilch, Ilcha, Ihwb, Ihwba, Icmyk, Icmyka, Ixyz, Ixyza, Iluv, Iluva, Iryb, Iryba, Iuvw, Iuvwa } from "../types";
+export declare function isRGBObject(type: TInput): type is Irgb | Irgba;
+export declare function isHEXObject(type: TInput): type is Ihex | Ihexa;
+export declare function isHSLObject(type: TInput): type is Ihsl | Ihsla;
+export declare function isHSVObject(type: TInput): type is Ihsv | Ihsva;
+export declare function isHWBObject(type: TInput): type is Ihwb | Ihwba;
+export declare function isLABObject(type: TInput): type is Ilab | Ilaba;
+export declare function isLCHObject(type: TInput): type is Ilch | Ilcha;
+export declare function isXYZObject(type: TInput): type is Ixyz | Ixyza;
+export declare function isLUVObject(type: TInput): type is Iluv | Iluva;
+export declare function isUVWObject(type: TInput): type is Iuvw | Iuvwa;
+export declare function isRYBObject(type: TInput): type is Iryb | Iryba;
+export declare function isCMYKObject(type: TInput): type is Icmyk | Icmyka;
